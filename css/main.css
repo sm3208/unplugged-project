@@ -143,6 +143,10 @@ address {
  font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
