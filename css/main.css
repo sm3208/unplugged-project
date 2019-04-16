@@ -147,6 +147,10 @@ img {
   width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -169,6 +173,14 @@ header {
 
 header .content-wrapper {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,6 +254,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -289,6 +305,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -507,7 +526,6 @@ input[type=button] {
   }
 
 /* HEADER */
-
   header {
     justify-content: space-around;
   }
@@ -536,10 +554,10 @@ input[type=button] {
   /******* Hero area ******/
 
   .hero-area h1 {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0;
-}
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
 
   /******* Aside ******/
 
@@ -558,20 +576,6 @@ input[type=button] {
 
   /***** Features *****/
 
-  .features article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    flex-basis: 50%;
-  }
-
-  .features .features-item-description {
-    width: 50%;
-  }
-
-  /***** Features *****/
-
   .features h2 {
       margin: 0 20px 20px 0;
     }
@@ -585,7 +589,7 @@ input[type=button] {
     }
 
   .features .features-item-description {
-  width: 50%;
+    width: 50%;
   }
 
   /***** Reviews *****/
@@ -593,14 +597,14 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
-
   }
 
   .reviews h2 {
     width: 90%;
   }
 
-  .reviews article div {
+  .reviews article figure,
+    article div {
     width: 49%;
   }
 
