@@ -11,12 +11,12 @@
   <link rel="manifest" href="../site.webmanifest">
   <link rel="apple-touch-icon" href="../icon.png">
   <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/main.css">
-  1
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
+  <!-- FontAwesome CDN version 5.5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
@@ -27,9 +27,11 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="content-wrapper">
-      <a href="#">
-        <img src="" alt="unplugged logo">
-      </a>
+      <figure>
+        <a href="../index.html">
+          <img src="../img/unpluggedlogo.png" alt="unplugged logo">
+        </a>
+      </figure>
       <div class="header-divider"></div>
       <nav>
         <ul>
@@ -62,7 +64,7 @@
 
     <section class="map">
       <figure>
-        <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387144.0075834208!2d-73.97800349999999!3d40.7056308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2sus!4v1394298866288' width='600' height='450' frameborder='0' style='border:0'></iframe>
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.688444178436!2d-74.07639778459193!3d40.8128396793211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f861ad5902bf%3A0x8184280d31051734!2sMetLife+Stadium!5e0!3m2!1sen!2sau!4v1555554699281!5m2!1sen!2sau' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
       </figure>
     </section>
     <section class="contact-section">
@@ -99,22 +101,24 @@
             hello@unplugged.com
           </p>
         </address>
-        <div class="social">
-          <h4>Social</h4>
-          <div class="social-icons">
-            <p>
-              <a href="https://www.facebook.com/Skillcrush/" target="_blank"></a>
-            </p>
-            <p>
-              <a href="https://twitter.com/Skillcrush" target="_blank"></a>
-            </p>
-            <p>
-              <a href="https://www.instagram.com/skillcrush/" target="_blank"></a>
-            </p>
-          </div>
-        </div>
-      </div> <!-- footer content ends -->
+
+      <div class="social">
+        <h4>Social</h4>
+      <div class="social-icons">
+        <p>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </p>
+        <p>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </p>
+        <p>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </p>
+      </div>
     </div>
+  </div>
+</div>
+
     <!--footer content-wrapper ends-->
     <div class="copyright">
       <p>Copyright 2018 | Unplugged</p>
